@@ -1,10 +1,10 @@
 # Kenneth J. Smith
 
-**Technical Prototyping & Systems Developer**
+**Independent Engineering · FX Studio**
 
-I build technical systems and prototypes that turn unclear problems into testable, working solutions.
+I build inspectable systems and tools that make complex creative and operational work easier to compose, validate, and use.
 
-## Flagship
+## Current work
 
 ### Assembly
 
@@ -20,67 +20,29 @@ The Basic Room proof records 10 m × 8 m × 4 m, 120 structural modules, seed 13
 
 [Explore the Assembly case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/assembly)
 
-## What I Work On
+### OpsDeck
 
-- Unreal Engine technical prototyping
-- C++ / Blueprint systems
-- Editor tooling and plugins
-- Gameplay and system architecture
-- Workflow automation
-- AI-assisted engineering workflows
-- MCP and tool integrations
-- Debugging and dependency closure
-- Interactive 3D and web prototyping
+An open-source web operations console for InterSystems IRIS, with read-focused system discovery, operational views, and evidence-backed read verification.
 
-## Selected Work
+**State:** EARLY RELEASE PREPARATION
 
-### Atlas Cortex
+[View the OpsDeck repository](https://github.com/KennethJSmithDev/OpsDeck) · [Visit the portfolio](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio)
 
-A local-first orchestration system where model proposals are constrained by deterministic verification, provenance, and authority boundaries.
+## The workshop
 
-**State:** PROTOTYPE
+Across projects, I focus on clear boundaries, useful evidence, and systems that make their state understandable. The work spans Unreal Engine tools, C++ and Blueprint systems, operations software, workflow automation, and interactive prototypes.
 
-[View the Atlas Cortex case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio/atlas-cortex)
+## Public surfaces
 
-### IIGE / Iggy
-
-A local-first capability and benchmarking prototype that keeps detected, predicted, measured, and unknown hardware facts separate.
-
-**State:** FUNCTIONAL FOR SUPPORTED/SAMPLE SCOPE
-
-[View the IIGE case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio/iige)
-
-### Slime Survivor
-
-A browser-playable vertical slice focused on tutorial clarity, responsive controls, combat timing, and readable progression.
-
-**State:** PLAYABLE BROWSER PROTOTYPE
-
-[View the Slime Survivor case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio/slime-survivor)
-
-### Two Homes Lab / Household Budget
-
-A local-first budgeting application designed around offline/private-network use, recoverable history, and bounded synchronization.
-
-**State:** PRIVATE / ANONYMIZED
-
-[View the architecture case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio/household-budget)
-
-### Doc's Lab
-
-A documentation-first showcase and development environment for explaining, testing, and presenting technical systems.
-
-**State:** SHOWCASE
-
-[Open Doc's Lab](https://kind-bush-04a42f20f.6.azurestaticapps.net/docslab)
-
-## Public Surfaces
-
-- [Canonical professional website](https://kind-bush-04a42f20f.6.azurestaticapps.net/)
+- [Professional website](https://kind-bush-04a42f20f.6.azurestaticapps.net/)
 - [Assembly case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/assembly)
 - [Portfolio](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio)
-- [Doc's Lab public mirror](https://github.com/KennethJSmithDev/DocsLab-public-mirror)
+- [OpsDeck repository](https://github.com/KennethJSmithDev/OpsDeck)
 - [Public repositories](https://github.com/KennethJSmithDev?tab=repositories)
+
+## Organization
+
+Hell or High Water Solutions — historical / hiatus pending administrative restoration.
 
 ## Contact
 
