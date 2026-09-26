@@ -1,8 +1,23 @@
 # Kenneth J. Smith
 
-**Independent Engineering · FX Studio**
+**Independent Engineering · Systems Architecture · FX Studio**
 
-I build inspectable systems and tools that make complex creative and operational work easier to compose, validate, and use.
+I turn ambiguous technical problems into inspectable architectures, bounded implementation plans, and evidence-backed systems.
+
+My work spans technical discovery, system decomposition, architecture, prototyping, validation, and AI-assisted engineering. I am especially interested in problems where the difficult part is determining **what should exist, what already exists, who owns the state, and how to prove the result works**.
+
+[Architecture portfolio](ARCHITECTURE_PORTFOLIO.md)
+
+## Available for bounded remote work
+
+Typical engagements include technical discovery, solution/system architecture, feasibility studies, architecture review, product/system decomposition, prototype planning, AI implementation planning, technical due diligence, and validation strategy.
+
+A typical handoff is:
+
+```text
+Problem → Current Reality → Constraints → Architecture Options
+→ Tradeoffs → Recommended Path → Validation Criteria → Handoff
+```
 
 ## Current work
 
@@ -30,10 +45,13 @@ An open-source web operations console for InterSystems IRIS, with read-focused s
 
 ## The workshop
 
-Across projects, I focus on clear boundaries, useful evidence, and systems that make their state understandable. The work spans Unreal Engine tools, C++ and Blueprint systems, operations software, workflow automation, and interactive prototypes.
+Across projects, I focus on clear boundaries, useful evidence, and systems that make their state understandable. Active R&D and competition-sensitive implementation remain private until publication is justified.
+
+The work spans Unreal Engine tools, C++ and Blueprint systems, operations software, workflow automation, technical research, architecture, and interactive prototypes.
 
 ## Public surfaces
 
+- [Architecture portfolio](ARCHITECTURE_PORTFOLIO.md)
 - [Professional website](https://kind-bush-04a42f20f.6.azurestaticapps.net/)
 - [Assembly case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/assembly)
 - [Portfolio](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio)
