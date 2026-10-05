@@ -1,67 +1,112 @@
 # Kenneth J. Smith
 
-**Independent Engineering · Systems Architecture · FX Studio**
+**Independent Research Engineer · Developer Tools · Systems Architecture**
 
-I turn ambiguous technical problems into inspectable architectures, bounded implementation plans, and evidence-backed systems.
+I work best where the specification does not exist yet.
 
-My work spans technical discovery, system decomposition, architecture, prototyping, validation, and AI-assisted engineering. I am especially interested in problems where the difficult part is determining **what should exist, what already exists, who owns the state, and how to prove the result works**.
+I turn ambiguous technical bets into bounded prototypes, make the system reveal what is actually true, and preserve enough evidence to decide what should be built next.
 
-[Architecture portfolio](ARCHITECTURE_PORTFOLIO.md)
+My work spans developer tooling, agentic software development, systems architecture, runtime and toolchain research, interactive systems, and evidence-driven product engineering.
 
-## Available for bounded remote work
+A recurring theme across that work is increasingly simple to state:
 
-Typical engagements include technical discovery, solution/system architecture, feasibility studies, architecture review, product/system decomposition, prototype planning, AI implementation planning, technical due diligence, and validation strategy.
+> **Intent → Creation**
 
-A typical handoff is:
+How can human intent become a real, maintainable system without losing meaning, ownership, evidence, or human authority along the way?
 
-```text
-Problem → Current Reality → Constraints → Architecture Options
-→ Tradeoffs → Recommended Path → Validation Criteria → Handoff
-```
-
-## Current work
-
-### Assembly
-
-An intent-first Unreal Engine 5.8 composition system that maps bounded creator intent to validated, inspectable Unreal capabilities.
-
-**State:** CURRENT REPRODUCED PROOF
-
-The current bounded reviewer loop is:
-
-Character → Testing Ground / Traversal → Building Destination → Play in Editor
-
-The Basic Room proof records 10 m × 8 m × 4 m, 120 structural modules, seed 13579, South Door ON, and East Door ON.
-
-[Explore the Assembly case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/assembly)
+## Shipped
 
 ### OpsDeck
 
-An open-source web operations console for InterSystems IRIS, with read-focused system discovery, operational views, and evidence-backed read verification.
+**Evidence-first operations for InterSystems IRIS.**
 
-**State:** EARLY RELEASE PREPARATION
+OpsDeck 1.0 is an open-source operations environment built around observation, operation rehearsal, explicit authority, authoritative read-back, and evidence-backed verification.
 
-[View the OpsDeck repository](https://github.com/KennethJSmithDev/OpsDeck) · [Visit the portfolio](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio)
+Rather than treating a successful command as proof, OpsDeck keeps the distinction between requested action, observed state, execution authority, and verified result explicit.
 
-## The workshop
+[Repository](https://github.com/KennethJSmithDev/OpsDeck)
 
-Across projects, I focus on clear boundaries, useful evidence, and systems that make their state understandable. Active R&D and competition-sensitive implementation remain private until publication is justified.
+## Active Research
 
-The work spans Unreal Engine tools, C++ and Blueprint systems, operations software, workflow automation, technical research, architecture, and interactive prototypes.
+### UE5.8 Native Wasm64 / WebGPU
 
-## Public surfaces
+Private active R&D into native 64-bit WebAssembly browser execution for Unreal Engine 5.8 and the path from engine runtime through browser-native GPU infrastructure.
 
-- [Architecture portfolio](ARCHITECTURE_PORTFOLIO.md)
-- [Professional website](https://kind-bush-04a42f20f.6.azurestaticapps.net/)
-- [Assembly case study](https://kind-bush-04a42f20f.6.azurestaticapps.net/assembly)
-- [Portfolio](https://kind-bush-04a42f20f.6.azurestaticapps.net/portfolio)
-- [OpsDeck repository](https://github.com/KennethJSmithDev/OpsDeck)
-- [Public repositories](https://github.com/KennethJSmithDev?tab=repositories)
+Native Wasm64 browser execution has been achieved. Current research continues through renderer, shader, packaging, and productization boundaries.
 
-## Organization
+Public material focuses on architecture, evidence, failure attribution, and reproducible findings rather than unreleased implementation.
 
-Hell or High Water Solutions — historical / hiatus pending administrative restoration.
+### Assembly
 
-## Contact
+A provider-neutral semantic composition system exploring how creator intent can become explicit requirements, resolve against observed capabilities, produce an inspectable creation plan, and materialize into validated target-specific output.
 
-[kenny.smith.email+dev@gmail.com](mailto:kenny.smith.email+dev@gmail.com)
+**Research direction:** Intent → Creation.
+
+### Doc's Lab
+
+An AI-directed, human-reviewed production environment investigating how intelligent agents can actively build complex software while real environments retain authority over their own state and consequential decisions remain reviewable.
+
+### EGEHAR
+
+**Evidence-Gated Execution + Hierarchical Adaptive Representation**
+
+An engineering and research methodology emerging from repeated work on uncertain systems problems.
+
+Its central questions are:
+
+- What is actually true?
+- What already exists?
+- Who owns the relevant state?
+- What is genuinely missing?
+- What is the smallest representation and change that preserves the required meaning?
+- What observation would actually prove the claim?
+
+The methodology remains under active development and is evaluated through real projects rather than treated as finished theory.
+
+## How I Work
+
+```text
+Ambiguous Problem
+      ↓
+Establish Reality
+      ↓
+Map Ownership + Existing Capability
+      ↓
+Form the Smallest Useful Bet
+      ↓
+Prototype
+      ↓
+Observe + Measure
+      ↓
+Accept / Reject
+      ↓
+Preserve Evidence
+      ↓
+Build What the Evidence Justifies
+```
+
+I use AI aggressively for research, implementation, and exploration.
+
+I do not treat AI output as authority.
+
+A generated artifact, successful API call, compile, link, runtime initialization, or rendered frame proves only the boundary it actually crossed.
+
+## Selected Case Studies
+
+Case studies focus on the question, technical bet, evidence, failures, result, and remaining uncertainty rather than exposing unreleased implementation.
+
+- OpsDeck — prototype to qualified product
+- Unreal Engine 5.8 Native Wasm64 / WebGPU — frontier runtime and graphics research
+- Assembly / Doc's Lab — intent-driven and agentic software creation
+- EGEHAR — evidence and representation methodology
+- Additional research and prototype work published as boundaries become safe to disclose
+
+## Broader Work
+
+My projects have crossed C++, WebAssembly, WebGPU, Unreal Engine, JavaScript/TypeScript, Rust, Kotlin/Android, ObjectScript/IRIS, browser graphics, AI/agent workflows, interactive systems, technical research, and product architecture.
+
+The technologies change.
+
+The underlying job usually does not:
+
+**figure out what should exist, determine what reality permits, build the smallest useful proof, and learn from what actually happens.**
