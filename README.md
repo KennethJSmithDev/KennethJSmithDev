@@ -2,102 +2,52 @@
 
 **Independent Research Engineer · Developer Tools · Systems Architecture**
 
-I work best where the specification does not exist yet.
+Hi, I'm Doc. I build developer tools, game-development pipelines, and interactive systems.
 
-I turn ambiguous technical bets into bounded prototypes, make systems reveal what is actually true, and preserve enough evidence to decide what should be built next.
+A lot of my work starts with a question: what can we build with the capabilities we already have? I like digging into how something works, finding the useful pieces, and figuring out how they can work together. Then comes the important part: testing whether the idea actually holds up.
 
-My work spans developer tools, agentic software development, systems architecture, and frontier runtime research. A recurring question connects it:
+Game development is a big part of that. It brings rendering, simulation, tools, interaction, and a little creative chaos into the same room. My interests also take me into operations software, medical visualization, and agent-assisted development. There's a lot to learn when you look beyond one stack.
 
-> **Intent → Creation**
+[Website](https://kennethjsmithdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/ooopsmybaddude) · [SNAFU Gaming on Fab](https://www.fab.com/sellers/SNAFU%20Gaming)
 
-How can human intent become a real, maintainable system without losing meaning, ownership, evidence, or human authority along the way?
+## A few places to start
 
-## Shipped product
+### [OpsDeck](https://github.com/KennethJSmithDev/OpsDeck)
 
-### OpsDeck 1.0.0
+An operations environment for InterSystems IRIS. The goal is to help people understand what the system is doing, what an action would change, and what evidence they have before moving forward.
 
-An open-source, native IRIS-hosted operations environment built around observed state, operation rehearsal, explicit authority, authoritative read-back, and evidence-backed verification.
+It has a published release and a [safe browser demo](https://kennethjsmithdev.github.io/OpsDeck/). Further development continues separately from that released baseline.
 
-The v1.0.0 release was qualified against a disposable Docker IRIS 2026.2 / IPM 0.10.8 target. Its release qualification reports 259 tests. OpsDeck keeps requested action, observed state, execution authority, and verified outcome distinct.
+### [DICOM3D](https://github.com/KennethJSmithDev/DICOM3D)
 
-- [Repository and README](https://github.com/KennethJSmithDev/OpsDeck)
-- [v1.0.0 release](https://github.com/KennethJSmithDev/OpsDeck/releases/tag/v1.0.0)
-- [v1.0.0 release qualification](https://github.com/KennethJSmithDev/OpsDeck/blob/main/docs/RC_1_0_0_QUALIFICATION_20261004.md)
-- [Capability inventory](https://github.com/KennethJSmithDev/OpsDeck/blob/main/docs/CAPABILITY_INVENTORY.md)
-- [Live demo](https://kennethjsmithdev.github.io/OpsDeck/)
+Research into turning medical imaging into interactive 3D structures without losing their identity, spatial context, or connection to the source evidence.
 
-## Frontier systems research
+The public project is an early research prototype. It isn't a clinical tool or a basis for diagnosis or treatment.
 
-### Unreal Engine 5.8 · Native Wasm64 · WebGPU
+### [Eager](https://github.com/KennethJSmithDev/Eager)
 
-Research into a native 64-bit WebAssembly browser execution path for Unreal Engine 5.8 and its interaction with browser GPU infrastructure. The work separates qualification layers so a pass at one boundary is not mistaken for proof of the next.
+An agent harness I'm planning around keeping intent, context, and evidence connected as work moves between tools and sessions. It's still in the planning stage; there isn't an installable release yet.
 
-**Accepted milestones**
+This is the agent harness. My separate engine research is a different project.
 
-- Native Wasm64 compile and link for the real `webGPU_Lab` Web/Game target.
-- Controlled browser startup through UE `PreInit`.
-- Controlled Dawn adapter and device initialization.
-- 60 foreground browser animation-frame callbacks in qualified controls.
-- Diagnostic RHI surface/backbuffer presentation.
+### [Doc's Lab](https://github.com/KennethJSmithDev/DocsLab-public-mirror)
 
-**Still open**
+A public prototype exploring documentation-first development, semantic structure, accessibility, and diagnostics. It's a bounded look at that work, with its scope documented in the repository.
 
-- Fully cooked `webGPU_Lab` browser Game startup and Game/world execution.
-- UE Renderer scene pixels from the real Game path.
-- Full Web cook, currently blocked in global shader compilation.
-- Full exporter/product completion.
+## Game development and engine research
 
-The accepted milestones establish a browser runtime path and diagnostic presentation; they do not establish full UE Renderer output or a completed browser product. Public descriptions focus on architecture, qualification boundaries, and findings. Engine-derived source, licensed assets, and unpublished implementation remain private.
+I'm interested in the whole path from an idea to something you can actually interact with: assets, gameplay systems, authoring tools, rendering, and delivery.
 
-## Intent-driven and agentic systems
+That includes Unreal workflows, Babylon-based prototypes, native Wasm64/WebGPU research, and modular engine design. I want useful pieces that can stand on their own and work together when the project needs them. The larger engine and export work is still in development.
 
-### Assembly
+## How I approach the work
 
-A research direction for translating intent into inspectable, validated creation:
+I call the method behind this **EGEHAR**. In plain language: understand what exists, preserve what matters, choose the smallest useful next step, and verify the result.
 
-`intent → semantic requirements → capability discovery → provider resolution → inspectable plan → creation/materialization → observation → validation → evidence → human review`
+- Study existing tools and reuse capabilities where they fit.
+- Write the missing pieces when there's a real need.
+- Keep experiments, working prototypes, and released software clearly identified.
+- Use AI agents as part of the workflow, with review and evidence behind the claims.
+- Make tools easier to understand while people are using them.
 
-The broader provider-neutral architecture remains in development. Historical bounded Assembly prototype evidence is distinct from this wider direction.
-
-### Doc's Lab
-
-An AI-directed, human-reviewed production environment exploring how agents can create complex software while real environments retain authority over state and consequential decisions remain reviewable.
-
-### EGEHAR
-
-**Evidence-Gated Execution + Hierarchical Adaptive Representation** is an evolving engineering methodology shaped by repeated work on uncertain systems. Its working principles include establishing current reality, identifying ownership, bounding authority and scope, reusing existing capability, validating deterministically, and preserving evidence and uncertainty. It remains a practice evaluated through projects, not a universally validated theory.
-
-## Research portfolio
-
-Current and emerging case-study work follows the question, reality, bet, execution, evidence, failure, decision, and public-boundary trail.
-
-- **OpsDeck** — shipping and qualifying an evidence-first operations product.
-- **Native Wasm64 / WebGPU** — qualifying a frontier browser runtime path one milestone at a time.
-- **Babylon.js / WebGPU** — a failed visual qualification and the decision justified by its evidence.
-- **Assembly / Doc's Lab** — exploring semantic intent, capability resolution, and human-reviewed creation.
-
-Some case studies are still being prepared. Public material will expose architecture, acceptance criteria, sanitized receipts, and measured outcomes while withholding licensed or confidential implementation.
-
-## How I work
-
-```text
-Ambiguous problem
-      ↓
-Establish reality and ownership
-      ↓
-Find existing capability
-      ↓
-Form the smallest useful bet
-      ↓
-Prototype and observe
-      ↓
-Accept, reject, or narrow the claim
-      ↓
-Preserve evidence and uncertainty
-      ↓
-Build what the evidence justifies
-```
-
-I use AI for research, implementation, and exploration. I do not treat generated output as authority. A successful API call, compile, link, runtime initialization, or rendered frame proves only the boundary it actually crossed.
-
-The technologies change. The underlying work is to determine what should exist, discover what reality permits, build the smallest useful proof, and learn from what happens.
+The ideas can get ambitious. I try to keep the next step small enough to prove.
