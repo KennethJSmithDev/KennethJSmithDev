@@ -28,12 +28,6 @@ The public project is an early research prototype. It isn't a clinical tool or a
 
 An agent harness I'm planning around keeping intent, context, and evidence connected as work moves between tools and sessions. It's still in the planning stage; there isn't an installable release yet.
 
-This is the agent harness. My separate engine research is a different project.
-
-### [Doc's Lab](https://github.com/KennethJSmithDev/DocsLab-public-mirror)
-
-A public prototype exploring documentation-first development, semantic structure, accessibility, and diagnostics. It's a bounded look at that work, with its scope documented in the repository.
-
 ## Game development and engine research
 
 I'm interested in the whole path from an idea to something you can actually interact with: assets, gameplay systems, authoring tools, rendering, and delivery.
